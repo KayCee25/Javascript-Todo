@@ -3,30 +3,39 @@
     height: 100%;
 }
 
-.container{
+header{
     width: 100%;
-    height: 50%;
+    height: 20%;
     background-color: black;
 }
 
 h1{
     color: white;
-    padding: 50px;
-}
-
-.box{
-    padding-left: 43%;
-    padding-top: 100px;   
+    padding: 30px 20px 0 20px;
 }
 
 input[type="text"]{
-    width: 40%;
+    width: 30%;
     height: 50px;
-    margin-left: -10%;
+
 }
 
-.div{
+.btn{
     width: 8%;
     height: 45px;
     cursor: pointer;
+}
+li{
+    padding: 5px;
+    height: 20px;
+    width: 200px;
+    background-color: rgb(197, 193, 193);
+    color: black;
+    cursor: pointer;
+    margin-bottom: 1px;
+    list-style: none;
+    text-transform: capitalize;
+}
+.checked{
+    text-decoration: line-through;
 }
