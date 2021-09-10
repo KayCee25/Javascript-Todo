@@ -9,11 +9,10 @@ function btn () {
         alert("Input Todo")
     }
     else{
-        
-        let chidi = document.createElement('li')
-        chidi.innerHTML = todo
-        todos.appendChild(chidi)
-        text.value = "" 
+    let inputText = document.createElement("Li")
+    inputText.innerHTML = todo
+    todos.appendChild(inputText)
+    text.value   = ""
     }
 }
 function done (e) {

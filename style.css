@@ -26,15 +26,17 @@ input[type="text"]{
     cursor: pointer;
 }
 li{
-    padding: 5px;
-    height: 20px;
-    width: 200px;
+    padding: 10px;
+    height: 30px;
+    width: 30%;
     background-color: rgb(197, 193, 193);
     color: black;
     cursor: pointer;
     margin-bottom: 1px;
     list-style: none;
     text-transform: capitalize;
+    font-size: 30px;
+    /* text-align: center; */
 }
 .checked{
     text-decoration: line-through;
